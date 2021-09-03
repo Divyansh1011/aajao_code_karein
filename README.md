@@ -7,7 +7,7 @@ This is a public repo for the accountable people to share there daily progress w
 - Follow me on [twitter](https://twitter.com/chachaji_69)
 - Fork this repo 
 - Make a folder by your name
-- Make a branch by your nane
+- Make a branch by your name
 - Now to contribute to the repo make a new branch with day no everyday so that we   can track what we are doing each day.
 - Make sure to pat on your back and get a nice cold coffee..
 
