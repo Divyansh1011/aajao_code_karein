@@ -78,6 +78,8 @@ public class stacks_1 {
                 false
             );
         }
+
+        input.close();
         
     }
 }
