@@ -11,6 +11,7 @@ public class array_list {
         {
             b.add(n.nextInt());
         }
+        n.close();
     }
 }
 

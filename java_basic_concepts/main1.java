@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class main
+public class main1
 {
     public static void main(String[] args)
     { 
@@ -14,6 +14,7 @@ public class main
 
         Integer helo = 64;
         helo.toString();
+        input.close();
         
     }
   

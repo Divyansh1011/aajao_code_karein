@@ -12,6 +12,8 @@ public class test {
         int man = (int)(input.nextFloat());
         System.out.println(man);
 
+        input.close();
+
 
 
         

@@ -11,6 +11,7 @@ public class method_1
         int sum = sum1(input.nextInt(), input.nextInt());
         System.out.println(sum);
 
+        input.close();
     }
 
     //making one function 
@@ -33,6 +34,8 @@ public class method_1
         int sum = num + num1;
 
         System.out.println("the sum is"+ sum);
+
+        in.close();
 
     }
 
