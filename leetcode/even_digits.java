@@ -26,6 +26,8 @@ public class even_digits
 
         s.close();
 
+        
+
 
         
     }
