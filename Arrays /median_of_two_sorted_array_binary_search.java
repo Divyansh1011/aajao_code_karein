@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 import javax.lang.model.util.ElementScanner6;
 
 public class median_of_two_sorted_array_binary_search 
@@ -51,7 +53,7 @@ public class median_of_two_sorted_array_binary_search
     public static void main(String[] args) 
     {
 
-        Scanner s = new Scanner();
+        Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         int m = s.nextInt();
 
