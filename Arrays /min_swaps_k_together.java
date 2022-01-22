@@ -53,6 +53,8 @@ public class min_swaps_k_together {
         }
 
         //for the current window
+
+        //important 
         int ans = bad;
         for (int i = 0,j = count; j<arr.length; ++i,++j) 
         {
