@@ -2,8 +2,8 @@ public class count_subset_of_given_diff
 {
     public static void main(String[] args) 
     {
-        int arr[] = {1,1,2,3};
-        int diff = 1;
+        int arr[] = {1,1,1,1,1};
+        int diff = 3;
         int n = arr.length;
 
         System.out.println(findSubset(arr, diff,n));
@@ -50,21 +50,18 @@ public class count_subset_of_given_diff
 
         for (int i = 1; i < n+1; i++) 
         {
-            for (int j = 0; j < s1+1; j++) 
+            for (int j = 1; j < s1+1; j++) 
             {
 
                 if(arr[i-1] <= j)
                 {
                     dp[i][j] = dp[i-1][j-arr[i-1]] + dp[i-1][j];
                 }
-                else
-                {
+                else if (arr[i-1]>j || arr[i-1] == 0) {
                     dp[i][j] = dp[i-1][j];
-
-                }
-
-                
-            }
+                    
+                }           
+            }   
             
         }
 
