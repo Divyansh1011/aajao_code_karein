@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class knapsack
 {
     static int max(int a, int b) 
-    { 
+    {   
       return (a > b) ? a : b; 
     }
 
