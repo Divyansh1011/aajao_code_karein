@@ -24,12 +24,13 @@ public class lc_subsequence
     public static int lcs(char[] a, char[] b, int n, int m) 
     {
 
-        if(n==0 || m==0)
+        if(n==0 || m==0) // Base Condition
         {
             return 0;
         }
 
-        if(a[n-1] == b[m-1])
+        //Choice Diagram
+        if(a[n-1] == b[m-1]) 
         {
             return 1 + lcs(a,b,n-1,m-1);
         }
