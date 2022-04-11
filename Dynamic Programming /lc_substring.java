@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-import javax.naming.spi.DirStateFactory.Result;
+
 
 public class lc_substring 
 {
