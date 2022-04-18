@@ -12,7 +12,7 @@ public class matrix_chain_multi
         for(int i = 0; i < arr.length; i++) 
         {
             arr[i] = s.nextInt();
-        }
+    }
 
         System.out.println(solve(arr,1,n-1));
     }
