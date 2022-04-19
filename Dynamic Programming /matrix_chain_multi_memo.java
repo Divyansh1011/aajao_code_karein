@@ -46,6 +46,7 @@ public class matrix_chain_multi_memo
         }
 
         System.out.println(MatrixChainOrder(arr,n));
+        s.close();
 
     }
 
