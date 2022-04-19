@@ -15,6 +15,7 @@ public class matrix_chain_multi
     }
 
         System.out.println(solve(arr,1,n-1));
+        s.close();
     }
 
     public static int solve(int arr[], int i,int j)
