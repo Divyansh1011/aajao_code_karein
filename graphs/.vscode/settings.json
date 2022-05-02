@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/usr/local/javafx-sdk-18.0.1/lib/javafx-swt.jar",
+        "/usr/local/javafx-sdk-18.0.1/lib/javafx.swing.jar",
+        "/usr/local/javafx-sdk-18.0.1/lib/javafx.fxml.jar",
+        "/usr/local/javafx-sdk-18.0.1/lib/javafx.media.jar",
+        "/usr/local/javafx-sdk-18.0.1/lib/javafx.web.jar",
+        "/usr/local/javafx-sdk-18.0.1/lib/javafx.base.jar",
+        "/usr/local/javafx-sdk-18.0.1/lib/javafx.controls.jar",
+        "/usr/local/javafx-sdk-18.0.1/lib/javafx.graphics.jar"
+    ]
+}
