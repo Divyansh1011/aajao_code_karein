@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-import javafx.scene.layout.Priority;
+
 
 class Node1 implements Comparator<Node1>
 {
@@ -49,7 +49,20 @@ public class dijkstra {
         {
             Node1 node = pq.poll();
 
-            for(Node1 it: adj.get())
+            for(Node1 it: adj.get(node.getV()))
+            {
+                if(dist[node.getV()] + it.getWeight() < dist[it.getV()])
+                {
+                    dist[it.getV()] = dist[node.getV()] + it.getWeight();
+                    pq.add(new Node1(it.getV(), dist[it.getV()]));
+                }
+            }
+        }
+
+        for (int i = 0; i < n; i++) 
+        {
+            System.out.println(dist[i] + " ");
+            
         }
     }
     public static void main(String[] args) {
@@ -66,6 +79,7 @@ public class dijkstra {
 		adj.get(4).add(new Node1(2, 2));
 		adj.get(4).add(new Node1(5, 4));
 		adj.get(5).add(new Node1(3, 1));
-        
+        dijkstra obj = new dijkstra();
+        obj.shortestPath(0, adj, n);
     }
 }
