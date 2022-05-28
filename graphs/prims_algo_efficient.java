@@ -15,7 +15,7 @@ class Node implements Comparator<Node>
 
     @Override
     public int compare(Node arg0, Node arg1) {
-        // TODO Auto-generated method stub
+        
 
         if(arg0.weight > arg1.weight)
         {
@@ -130,4 +130,4 @@ public class prims_algo_efficient {
 }
 
 
-//time complexity o(N+E) == nlogn 
+//time complexity o(N+E) == nlogn  
