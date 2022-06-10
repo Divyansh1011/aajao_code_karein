@@ -8,7 +8,7 @@ public class waterconnection_1
     HashMap<Integer, Integer> mp) 
     {
         int min = Integer.MAX_VALUE;
-        int des = -1;
+
 
         while(mp.containsKey(src))
         {

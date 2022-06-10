@@ -64,6 +64,8 @@ public class max_product_subset {
 
         int product = max_product(s,n);
         System.out.println(product  );
+
+        sc.close();
         
 
     }
