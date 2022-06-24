@@ -12,7 +12,29 @@ public class symmetric {
         root.right.right.left.left = new Node(10);
         root.right.right.left.right = new Node(11);
 
+        boolean t = symmertrical(root);
+
+        System.out.println(t);
+
         
         
+    }
+
+    private static boolean symmertrical(Node root) {
+        return root == null || isSymmetric(root.left,root.right);
+    }
+
+    private static boolean isSymmetric(Node left, Node right) 
+    {
+        if(left == null || right == null)
+        {
+                return left == right;
+        }
+        if(left.data !=  right.data)
+        {
+            return false;
+        }
+        return isSymmetric(left.left, right.right) && isSymmetric(left.right, right.left);
+
     }
 }
