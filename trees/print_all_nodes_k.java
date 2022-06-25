@@ -96,7 +96,7 @@ public class print_all_nodes_k {
                 map.put(currnt.left, currnt);
                 q.offer(currnt.left);
             }
-            if(currnt.right!=null)
+            if(currnt.right!=null)      
             {
                 map.put(currnt.right, currnt);
                 q.offer(currnt.right);
