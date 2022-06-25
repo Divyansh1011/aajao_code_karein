@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class isomorphic_String {
 
     public boolean isIsomorphic(String s, String t) 
