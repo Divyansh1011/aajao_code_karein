@@ -1,3 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
+
+class Node {
+    int val;
+    Node left;
+    Node right;
+    ArrayList<Node> children;
+    Node() {}
+    Node(int val) { this.val = val; }
+    Node(int val, Node left, Node right,ArrayList<Node> childer) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+        this.children = childer;
+    }
+}
+
 public class n_array_preorder 
 {
     public List<Integer> preorder(Node root) 
@@ -14,7 +32,7 @@ public class n_array_preorder
         {
             res.add(root.val);
         
-        for(Node node : root.children)  public List<Integer> preorder(Node root) 
+        for(Node node : root.children)  
         {
             List<Integer> res = new ArrayList<>();
             
